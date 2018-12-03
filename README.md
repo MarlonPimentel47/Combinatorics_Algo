@@ -23,4 +23,7 @@ We calculate these different combinations to get our union. We subtract this fro
 
 In short, I implemented the following technique:
 
-![](file:///C:/Users/Marlon%20Pimentel/Downloads/CodeCogsEqn.svg)
+[Imgur](https://i.imgur.com/KmK4nfz.png)
+[Imgur](https://i.imgur.com/Lwn0IiR.png)
+
+s
