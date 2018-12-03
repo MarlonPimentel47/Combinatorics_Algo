@@ -32,6 +32,7 @@ the stars and bars approach explained here: [stars_and_bars](https://en.wikipedi
 We calculate several different combinations (stars and bars approach) to get the sizes of all the intersections, which in turn, gets us the size of the union. We then subtract this from the total # of solutions to get our answer. 
 
 In short, I implemented the following:
+
 ![Alt text](https://i.imgur.com/KmK4nfz.png)
 ![Alt text](https://i.imgur.com/Lwn0IiR.png)
 
