@@ -5,7 +5,7 @@ I've built a simple Flask app that gives you the number of non-negative solution
 The algorithm is based on the principle of Inclusion-Exclusion. The idea is that if we want to count the number of objects with a certain condition, 
 we can count the total number of objects and then subtract the number of objects that do not have the condition.
 
-For example, if we had the set {1, 3, 5, 6} and we wanted the number of even numbers in the set, we first count the total number of elements
+>For example, if we had the set {1, 3, 5, 6} and we wanted the number of even numbers in the set, we first count the total number of elements
 in the set, which is 4. Then, we count the number of numbers that do not have the condition of being even. In other words, the number 
 of odd elements in the set, which is 3. Using the principle, we get 4 - 3 = 1, indicating that there is one even element in the set.
 
