@@ -1,5 +1,5 @@
 # Non-negative Integer Solutions Calculator
-### Implementation of Inclusion-Excusion Algorithm on Counting Integer Solutions
+### Implementation of Inclusion-Exclusion Algorithm on Counting Integer Solutions
 
 I've built a simple Flask app that gives you the number of non-negative solutions to an equation given upper limits to the variables.
 
