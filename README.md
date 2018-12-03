@@ -24,9 +24,9 @@ This is a simple case using Inclusion-Exclusion but we can use extend it to solv
 To count the # of non-neg int solutions such that properties P1, P2,...,Pk all hold,
 let Ai be the set of solutions such that Pi doesn't hold.
 
->So if we have x1 <= 3, then A1 is the # of non-neg solutions such that x1<=3 is not true, so the # of solutions with x1 >= 4. And so on.
+>So if we have x1 <= 3, then A1 is the # of non-neg solutions such that x1 <= 3 is not true (P1 here is that x1 <= 3 *is* true). Another way to say this is that A1 is the # of non-neg solutions such that x1 >= 4. And so on.
 
-We'd then want the union of A1, A2,...,Ak and subtract that from the total # of solutions. The technique I used re-expresses the union of A1, A2,...,Ak into intersections, where to get the size of each intersection, we use
+We'd then want the union of A1, A2,...,Ak and subtract that size from the total # of solutions. The technique I used re-expresses the union of A1, A2,...,Ak into intersections, where to get the size of each intersection, we use
 the stars and bars approach explained here: [stars_and_bars](https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics)).
 
 We calculate several different combinations (stars and bars approach) to get the sizes of all the intersections, which in turn, gets us the size of the union. We then subtract this from the total # of solutions to get our answer. 
