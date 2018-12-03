@@ -20,7 +20,7 @@ let Ai be the set of solutions such that Pi doesn't hold.
 >So if we have x1 <= 3, then A1 is the # of non-neg solutions such that x1<=3 is not true, so the # of solutions with x1 >= 4. And so on.
 
 The technique re-expresses the union of A1, A2,...,Ak into intersections, where to get the size of the intersection, we use
-the stars and bars approach explained here: [I'm an inline-style link](https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics)).
+the stars and bars approach explained here: [stars_and_bars](https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics)).
 
 We calculate these different combinations to get our union. We subtract this from the total # of solutions:
 
