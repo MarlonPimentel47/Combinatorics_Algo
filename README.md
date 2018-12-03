@@ -8,7 +8,7 @@ To see the building process, check out this video: <>
 The algorithm that I implemented in the back-end can handle any number of variables with its restrictions on the upper limits. The lower limit is set at 0 by default. 
 
 To handle any lower limit set by the user, I can handle this by subtracting the lower limits to 0 and subtracting each difference from their upper limit and the total as well. From there, the lower limits of the variables are at 0 and I can just call the original algorithm. On the front-end, my interface is restricted to 3 variables as I didn't spend too much time reading on how to dynamically modify a form. Maybe I'll get to that in the future...
-
+___
 The algorithm is based on the principle of Inclusion-Exclusion. The idea is that if we want to count the number of objects with a certain condition, 
 we can count the total number of objects and then subtract the number of objects that do not have the condition.
 
