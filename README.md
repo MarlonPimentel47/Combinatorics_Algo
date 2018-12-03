@@ -27,3 +27,5 @@ We calculate these different combinations to get our union. We subtract this fro
 In short, I implemented the following technique:
 ![Alt text](https://i.imgur.com/KmK4nfz.png)
 ![Alt text](https://i.imgur.com/Lwn0IiR.png)
+
+Applying the above by hand is not bad at all as it is just requires calculations, but that can get tedious. So far, the algorithm that I implemented in the back-end can handle any number of variables with its restrictions on the upper limits. The lower limit is set at 0 by default. To handle any lower limit set by the user, I can handle this by subtracting the lower limits to 0 and subtracting each difference from their upper limit and the total as well. From there, the lower limits of the variables are at 0 and I can just call the original algorithm. On the front-end, my interface is restricted to 3 variables as I didn't spend too much time reading on how to dynamically modify a form. Maybe I'll get to that in the future...
