@@ -23,7 +23,4 @@ We calculate these different combinations to get our union. We subtract this fro
 
 In short, I implemented the following technique:
 
-[Imgur](https://i.imgur.com/KmK4nfz.png)
-[Imgur](https://i.imgur.com/Lwn0IiR.png)
-
-s
+![Alt text](https://i.imgur.com/Lwn0IiR.png)
