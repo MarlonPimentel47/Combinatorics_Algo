@@ -22,5 +22,5 @@ the stars and bars approach explained here: [I'm an inline-style link](https://e
 We calculate these different combinations to get our union. We subtract this from the total # of solutions:
 
 In short, I implemented the following technique:
-
+![Alt text](https://i.imgur.com/KmK4nfz.png)
 ![Alt text](https://i.imgur.com/Lwn0IiR.png)
