@@ -1,6 +1,9 @@
-# Combinatorics_Algo
+# Non-negative Integer Solutions Calculator
+### Implementation of Inclusion-Excusion Algorithm on Counting Integer Solutions
 
 I've built a simple Flask app that gives you the number of non-negative solutions to an equation given upper limits to the variables.
+
+To see the building process, check out this video: <>
 
 The algorithm is based on the principle of Inclusion-Exclusion. The idea is that if we want to count the number of objects with a certain condition, 
 we can count the total number of objects and then subtract the number of objects that do not have the condition.
@@ -11,10 +14,10 @@ of odd elements in the set, which is 3. Using the principle, we get 4 - 3 = 1, i
 
 This is a simple case using Inclusion-Exclusion but we can use extend it to solve our original problem:
 
-  To count the # of non-neg int solutions such that properties P1, P2,...,Pk all hold,
-  let Ai be the set of solutions such that Pi doesn't hold.
+To count the # of non-neg int solutions such that properties P1, P2,...,Pk all hold,
+let Ai be the set of solutions such that Pi doesn't hold.
 
-So if we have x1 <= 3, then A1 is the # of non-neg solutions such that x1<=3 is not true, so the # of solutions with x1 >= 4. And so on.
+>So if we have x1 <= 3, then A1 is the # of non-neg solutions such that x1<=3 is not true, so the # of solutions with x1 >= 4. And so on.
 
 The technique re-expresses the union of A1, A2,...,Ak into intersections, where to get the size of the intersection, we use
 the stars and bars approach explained here: [I'm an inline-style link](https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics)).
