@@ -1,0 +1,51 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}
+    Non-Negative Integer Solutions
+{% endblock %}
+
+{% block content %}
+    <div class="main">
+        <div class="container-fluid">
+            <h1>Non-Negative Int Solutions Calculator</h1>
+            <h2>By Marlon Pimentel</h2>
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-info" role="alert">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+            {% endwith %}
+
+            {% block app_content %}
+            {% endblock %}
+        </div>
+    </div>
+    <style>
+        body{
+            background-color: #3CB371;
+        }
+        .main{
+            color: white;
+            background-color: #3CB371;
+            text-align: left;
+            font-family: 'Nunito', sans-serif;
+        }
+        a{
+            color:white;
+            text-decoration: none;
+            padding: 10px;
+            border: 2px solid white;
+        }
+        h1{
+            font-size: 45px;
+        }
+        h2{
+            font-size: 23px;
+        }
+        .answer{
+            font-size: 20px;
+        }
+    </style>
+
+{% endblock %}
