@@ -5,7 +5,21 @@ A simple Flask app that gives you the number of non-negative solutions to an equ
 
 To see the building process, check out this video: <>
 
-The algorithm that I implemented in the back-end can handle any number of variables with its restrictions on the upper limits. The lower limit is set at 0 by default. 
+On the front-end, my interface is restricted to 3 variables as I didn't spend too much time reading on how to dynamically modify a form. Maybe I'll get to that in the future... BUT the algorithm that I implemented in the back-end can handle any number of variables with its restrictions on the upper limits. The lower limit is set at 0 by default. To use that, simply copy the code from app/calculations.py and run num_solutions().
+
+```python
+'''
+  :param values: list of upper limits
+  :param total: int, total to the equation
+  :param num_of_vars: int, number of variables in equation
+'''
+#  x1 + x2 = 8
+#  with x1 <= 3 and x2 <= 7
+def main():
+  print(num_solutions([3, 7], 8, 2))
+
+main()
+```
 
 At the moment, there is no way to set your own lower limits, but one can handle this by subtracting the lower limits to 0 and subtracting each difference from both their upper limit and the total. From there, the lower limits of the variables are at 0 and you can just call the original algorithm. On the front-end, my interface is restricted to 3 variables as I didn't spend too much time reading on how to dynamically modify a form. Maybe I'll get to that in the future...
 ___
