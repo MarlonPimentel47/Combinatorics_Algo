@@ -13,6 +13,7 @@ On the front-end, my interface is restricted to 3 variables as I didn't spend to
   :param total: int, total to the equation
   :param num_of_vars: int, number of variables in equation
 '''
+#  Example
 #  x1 + x2 = 8
 #  with x1 <= 3 and x2 <= 7
 def main():
