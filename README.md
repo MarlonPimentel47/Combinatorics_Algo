@@ -21,7 +21,7 @@ def main():
 main()
 ```
 
-At the moment, there is no way to set your own lower limits, but one can handle this by subtracting the lower limits to 0 and subtracting each difference from both their upper limit and the total. From there, the lower limits of the variables are at 0 and you can just call the original algorithm. On the front-end, my interface is restricted to 3 variables as I didn't spend too much time reading on how to dynamically modify a form. Maybe I'll get to that in the future...
+At the moment, there is no way to set your own lower limits, but one can handle this by subtracting the lower limits to 0 and subtracting each difference from both their upper limit and the total. From there, the lower limits of the variables are at 0 and you can just call the original algorithm with the new values.
 ___
 
 ### Quick Explanation
