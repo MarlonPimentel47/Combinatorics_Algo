@@ -32,7 +32,7 @@ we can count the total number of objects and then subtract the number of objects
 in the set, which is 4. Then, we count the number of numbers that do not have the condition of being even. In other words, the number 
 of odd elements in the set, which is 3. Using the principle, we get 4 - 3 = 1, indicating that there is one even element in the set.
 
-This is a simple case using Inclusion-Exclusion but we can use extend it to solve our original problem:
+This is a simple case using Inclusion-Exclusion but we can extend it to solve our original problem:
 
 To count the # of non-neg int solutions such that properties P1, P2,...,Pk all hold,
 let Ai be the set of solutions such that Pi doesn't hold.
