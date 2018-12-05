@@ -3,8 +3,6 @@
 
 A simple Flask app that gives you the number of non-negative solutions to an equation given upper limits to the variables.
 
-To see the building process, check out this video: <>
-
 On the front-end, my interface is restricted to 3 variables as I didn't spend too much time reading on how to dynamically modify a form. Maybe I'll get to that in the future... BUT the algorithm that I implemented in the back-end can handle any number of variables with its restrictions on the upper limits. The lower limit is set at 0 by default. To use that, simply copy the code from app/calculations.py and run num_solutions().
 
 ```python
