@@ -11,11 +11,13 @@ On the front-end, my interface is restricted to 3 variables as I didn't spend to
   :param total: int, total to the equation
   :param num_of_vars: int, number of variables in equation
 '''
-#  Example
-#  x1 + x2 = 8
-#  with x1 <= 3 and x2 <= 7
+#  Example 1: x1 + x2 = 8 with x1 <= 3 and x2 <= 7
+#  Example 2: x1 + x2 + x3 + x4 + x5 = 52 with x1 <= 16, x2 <= 10, x3 <= 21, x4 <= 8 and x5 <= 3
 def main():
+
   print(num_solutions([3, 7], 8, 2))
+  
+  print(num_solutions([16, 10, 21, 8, 3], 52, 5))
 
 main()
 ```
